@@ -1,3 +1,83 @@
-<h1>HELLO YOU</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        html{
+        font-family: monospace;
+        }
+        .title{
+            font-weight:bold;
+        }
+        li{
+            text-decoration:none;
+        }
+        h6{
+            font-style: italic;
+        }
+        h1{
+            font-size: 42px;
+        }
+        .wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
 
-<p>Je cherche quelqu'un</p>
+-webkit-animation: rainbow 25s ease infinite;
+-z-animation: rainbow 25s ease infinite;
+-o-animation: rainbow 25s ease infinite;
+  animation: rainbow 25s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+    </style>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+    </head>
+    <body>
+    <div class="wrapper">
+        <h1 class="title">Kaaaaarim's blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#1">First post!</a></li>
+            <li><a href="#2">Second post!</a></li>
+        </ul>
+        
+        <h2 class="title" id="1">First post</h2>
+        <h6>08.12.2020</h6>
+        
+        <p>J'ai mangé des pommes de terres réchauffées avec des oignons fris. Ce fût très bon.</p>
+        
+        <h2 class="title" id="2">Second post</h2>
+        <h6>07.12.2020</h6>
+        
+        <p>Basiquement je suis allé à l'esplanade et j'ai acheté une pizza. C'est bien passé.</p>
+        
+    </div>
+        
+    </body>
+</html>
