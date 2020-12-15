@@ -1,17 +1,17 @@
 ### Hi there 👋
 
 dame da ne
+
 dame yo dame na no yo
+
 anta ga suki de suki sugite
+
 dore dake tsuyoi osake de mo
+
 yugamanai omoide ga
+
 baka mitai
 
-honma ni roku na otoko ya nai
-soroi no yubiwa hazushimasu
-zamaa miro seisei suru wa
-nan na no yo kono namida
-baka mitai
 <!--
 **Kaaaaarim/kaaaaarim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
